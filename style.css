@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Luckiest Guy", sans-serif;
+}
+
+@font-face {
+  src: url("/Js\ Solo\ project\ 1/fonts/curse.ttf");
+  font-family: "curse";
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(9, 33, 81), rgb(23, 65, 147), rgb(9, 33, 81));
+  /* background-color: rgb(9, 33, 81); */
+  margin: 60px auto;
+}
+
+#new-game {
+  display: block;
+  font-size: 2rem;
+  padding: 20px 30px 15px 30px;
+  font-family: "curse", sans-serif;
+  margin: 50px auto;
+  background: linear-gradient(135deg, red, orange);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-shadow: 0 0 3px black;
+  box-shadow: 0 0 2px black;
+}
+
+.score-cont {
+  width: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.score-cont h3 {
+  font-size: 3rem;
+  margin: 0;
+  color: bisque;
+}
+
+.score-cont p {
+  width: 150px;
+  /* height: 180px; */
+  text-align: center;
+  font-size: 5rem;
+  font-family: "curse", sans-serif;
+  color: rgb(223, 87, 87);
+  background-color: black;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 20px 0 4px 0;
+  margin: 20px auto 30px auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  font-family: "curse", sans-serif;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  font: inherit;
+  background: transparent;
+  color: rgb(198, 198, 198);
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  padding: 10px 8px 5px 8px;
+}
